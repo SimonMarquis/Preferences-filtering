@@ -7,6 +7,13 @@
 
 <br>
 
+| Task | Description |
+|---|---|
+| `./gradlew assembleDebug installDebug` | Assemble and install app |
+| `./gradlew test` | Unit tests |
+| `./gradlew connectedAndroidTest` | Instrumented tests |
+| `./gradlew -Pandroid.sdk.channel=3 pixel2DebugAndroidTest` | Instrumented tests with pre-configured AVD |
+
 ## License
 
 ```
