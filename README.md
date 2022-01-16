@@ -1,5 +1,11 @@
-# Preferences filtering
+<div align="center">
+  <img src="art/ic_launcher.png" alt="" width="96px" height="96px">
+</div>
 
+<p align="center"><img src="https://github.com/SimonMarquis/Preferences-filtering/workflows/Android CI/badge.svg" alt="Android CI"></p>
+<h3 align="center">Preferences filtering</h3>
+
+<br>
 
 ## License
 
