@@ -3,12 +3,17 @@
 </div>
 
 <p align="center"><img src="https://github.com/SimonMarquis/Preferences-filtering/workflows/Android CI/badge.svg" alt="Android CI"></p>
-<h3 align="center">Preferences filtering</h3>
 
-<br>
+<div align="center">
+  
+[![demo](art/demo.gif)](art/demo.mp4)
+
+</div>
+
+## Gradle
 
 | Task | Description |
-|---|---|
+|:---|:---|
 | `./gradlew assembleDebug installDebug` | Assemble and install app |
 | `./gradlew test` | Unit tests |
 | `./gradlew connectedAndroidTest` | Instrumented tests |
