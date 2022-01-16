@@ -1,0 +1,110 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_application_24"
+        app:title="Application">
+
+        <Preference
+            app:key="pref_app_applicationId"
+            app:title="ID" />
+
+        <Preference
+            app:key="pref_app_versionName"
+            app:title="Version name" />
+
+        <Preference
+            app:key="pref_app_versionCode"
+            app:title="Version code" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_device_24"
+        app:initialExpandedChildrenCount="3"
+        app:title="Device">
+
+        <Preference
+            app:key="pref_device_make"
+            app:title="Make" />
+
+        <Preference
+            app:key="pref_device_model"
+            app:title="Model" />
+
+        <Preference
+            app:key="pref_device_product"
+            app:title="Product" />
+
+        <Preference
+            app:key="pref_device_release"
+            app:title="Release" />
+
+        <Preference
+            app:key="pref_device_resolution"
+            app:title="Resolution" />
+
+        <Preference
+            app:key="pref_device_density"
+            app:title="Density" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_androidx_24"
+        app:title="AndroidX">
+
+        <Preference
+            app:key="pref_androidx_Preference"
+            app:title="Preference" />
+
+        <CheckBoxPreference
+            app:key="pref_androidx_CheckBoxPreference"
+            app:summaryOff="OFF"
+            app:summaryOn="ON"
+            app:title="CheckBoxPreference" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_androidx_SwitchPreferenceCompat"
+            app:summaryOff="OFF"
+            app:summaryOn="ON"
+            app:switchTextOff="OFF"
+            app:switchTextOn="ON"
+            app:title="SwitchPreferenceCompat" />
+
+        <SeekBarPreference
+            android:max="100"
+            app:defaultValue="50"
+            app:key="pref_androidx_SeekBarPreference"
+            app:min="0"
+            app:showSeekBarValue="true"
+            app:title="SeekBarPreference" />
+
+        <EditTextPreference
+            app:key="pref_androidx_EditTextPreference"
+            app:title="EditTextPreference"
+            app:useSimpleSummaryProvider="true" />
+
+        <DropDownPreference
+            app:entries="@array/entries"
+            app:entryValues="@array/values"
+            app:key="pref_androidx_DropDownPreference"
+            app:title="DropDownPreference"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:entries="@array/entries"
+            app:entryValues="@array/values"
+            app:key="pref_androidx_ListPreference"
+            app:title="ListPreference"
+            app:useSimpleSummaryProvider="true" />
+
+        <MultiSelectListPreference
+            app:entries="@array/entries"
+            app:entryValues="@array/values"
+            app:key="pref_androidx_MultiSelectListPreference"
+            app:title="MultiSelectListPreference" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
